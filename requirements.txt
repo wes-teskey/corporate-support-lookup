@@ -1,0 +1,7 @@
+langchain==0.2.6
+langchain_anthropic==0.1.17
+langchain_community==0.2.6
+langchain_openai==0.1.13
+Pillow==10.4.0
+python-dotenv==1.0.1
+streamlit==1.36.0
