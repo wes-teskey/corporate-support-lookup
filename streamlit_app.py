@@ -25,7 +25,7 @@ embeddings = OpenAIEmbeddings(model="text-embedding-3-large")
 data_dir = find_data_directory()
 
 # Load the FAISS index
-index_path = os.path.join(data_dir, "policy_faiss_index")
+index_path = os.path.join(data_dir, "customer_support_faiss_index")
 db = FAISS.load_local(index_path, embeddings)
 
 def search_policy(query):

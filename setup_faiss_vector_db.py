@@ -41,7 +41,7 @@ def setup_faiss_db():
         db = FAISS.from_documents(documents, embeddings)
         
         # Save the FAISS index
-        index_path = os.path.join(data_dir, "policy_faiss_index")
+        index_path = os.path.join(data_dir, "customer_support_faiss_index")
         db.save_local(index_path)
         
         print(f"FAISS index saved to {index_path}")
